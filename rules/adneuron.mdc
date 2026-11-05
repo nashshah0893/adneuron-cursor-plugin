@@ -1,0 +1,12 @@
+---
+description: AdNeuron advertising account, reporting, and campaign change workflows
+alwaysApply: true
+---
+Apply the following only when working with AdNeuron advertising tools.
+Use the connected AdNeuron MCP tools; discover their current schemas. Never invent tools or assume capabilities from a fixed tool count. Do not substitute another advertising service.
+Resolve the authorized workspace, platform, account, and campaign before acting. Keep internal record IDs separate from provider account IDs. Do not embed user account IDs or credentials in plugin files.
+For reporting, use stored data unless the user requests a refresh. Do not sync during a read-only request. Include exact inclusive dates, account timezone, currency, source, coverage, and available last-successful-sync timestamps. Provider data does not imply current data. Distinguish zero, unavailable, excluded accounts, and no stored observations. Do not infer a provider account is disabled from a disconnected AdNeuron connection alone.
+Show readable tables for comparisons. Tie recommendations to actual metrics and explain material data gaps.
+Before writes, show the exact account, affected objects, before/after values, budget and currency, targeting, creative, destination, and resulting status as applicable. Obtain explicit confirmation of that concrete change before execution. Create campaigns paused. Activation and increased spending require explicit approval of the exact action. For AdNeuron-recommended changes, follow any server-required in-app approval bound to the stored proposal; a chat reply cannot bypass it.
+Honor all server permission and approval requirements. These instructions are behavioral guidance, not a replacement for server-side authorization. Never fabricate approval identifiers or authorization context.
+Do not retry writes automatically. After an ambiguous timeout, check operation status before any retry. Report exact meaningful errors with secrets redacted. Never claim success without a successful tool response; distinguish exposed capabilities from verified operations.
