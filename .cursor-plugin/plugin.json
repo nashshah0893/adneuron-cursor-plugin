@@ -1,0 +1,19 @@
+{
+  "name": "adneuron",
+  "version": "0.2.1",
+  "description": "Your AI advertising copilot to create, launch, and analyze ads.",
+  "author": {
+    "name": "AdNeuron LLC"
+  },
+  "homepage": "https://adneuron.ai",
+  "keywords": [
+    "advertising",
+    "meta-ads",
+    "google-ads",
+    "marketing",
+    "mcp"
+  ],
+  "logo": "assets/logo.png",
+  "repository": "https://github.com/nashshah0893/adneuron-cursor-plugin",
+  "license": "MIT"
+}
